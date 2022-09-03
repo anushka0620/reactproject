@@ -3,7 +3,7 @@ import A from "./A";
 import B from "./B";
 import C from "./C";
 import { useContext } from "react";
-import AppContext from './context/AppContext'
+import AppContext from './context/AppContext.js'
 function App() {
 
   const state = useContext(AppContext);
